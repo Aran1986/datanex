@@ -1,0 +1,22 @@
+# Location: datanex/.dockerignore
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.git
+.gitignore
+.dockerignore
+docker-compose.yml
+README.md
+*.md
+logs/
+.env
+.vscode/
+.idea/
+tests/
+*.log

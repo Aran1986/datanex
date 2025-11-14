@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer hexagon -->
+  <path d="M20 2L35 11V29L20 38L5 29V11L20 2Z" stroke="url(#logo-gradient)" stroke-width="2" fill="none"/>
+  
+  <!-- Inner connected nodes (network) -->
+  <circle cx="20" cy="20" r="3" fill="url(#logo-gradient)"/>
+  <circle cx="14" cy="12" r="2" fill="#06b6d4"/>
+  <circle cx="26" cy="12" r="2" fill="#06b6d4"/>
+  <circle cx="14" cy="28" r="2" fill="#06b6d4"/>
+  <circle cx="26" cy="28" r="2" fill="#06b6d4"/>
+  
+  <!-- Connection lines -->
+  <line x1="20" y1="20" x2="14" y2="12" stroke="url(#logo-gradient)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="20" y1="20" x2="26" y2="12" stroke="url(#logo-gradient)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="20" y1="20" x2="14" y2="28" stroke="url(#logo-gradient)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="20" y1="20" x2="26" y2="28" stroke="url(#logo-gradient)" stroke-width="1.5" opacity="0.6"/>
+</svg>

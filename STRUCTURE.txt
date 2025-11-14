@@ -1,0 +1,88 @@
+# ساختار کامل پروژه BigData
+
+این فایل ساختار کامل پروژه را نشان می‌دهد.
+تمام کدهای Python که قبلاً نوشتیم در این repository قرار دارند.
+
+## ساختار پوشه‌ها:
+
+bigdata/
+├── api/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── dependencies.py
+│   └── routes/
+│       ├── __init__.py
+│       ├── upload.py
+│       ├── analyze.py
+│       ├── scrape.py
+│       └── blockchain.py
+│
+├── core/
+│   ├── __init__.py
+│   ├── file_handler.py
+│   ├── categorizer.py
+│   ├── labeler.py
+│   ├── validator.py
+│   ├── deduplicator.py
+│   ├── pattern_finder.py
+│   ├── scraper.py
+│   └── blockchain_analyzer.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── file.py
+│   ├── analysis.py
+│   └── task.py
+│
+├── services/
+│   ├── __init__.py
+│   ├── storage.py
+│   ├── queue.py
+│   └── ai_provider.py
+│
+├── workers/
+│   ├── __init__.py
+│   └── tasks.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── config.py
+│   └── logger.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   └── test_file_handler.py
+│
+├── scripts/
+│   ├── init_db.py
+│   ├── run_migrations.sh
+│   └── start_services.sh
+│
+├── alembic/
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions/
+│
+├── logs/
+│
+├── __init__.py
+├── database.py
+├── requirements.txt
+├── docker-compose.yml
+├── Dockerfile
+├── .env.example
+├── .gitignore
+├── pytest.ini
+├── alembic.ini
+├── README.md
+├── INSTALL.md
+├── API_GUIDE.md
+└── DEPLOYMENT.md
+
+## توضیحات:
+
+تمام کدهای Python که در طول این مکالمه نوشتیم، باید در مکان‌های مشخص شده قرار گیرند.
+
+برای ایجاد خودکار تمام فایل‌ها، می‌توانید از اسکریپت Python زیر استفاده کنید که تمام کدها را در جای مناسب خود قرار می‌دهد.
