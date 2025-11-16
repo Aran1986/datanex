@@ -67,3 +67,7 @@ minio_data/
 tmp/
 temp/
 *.tmp
+
+# Frontend
+frontend/node_modules/
+frontend/package-lock.json
