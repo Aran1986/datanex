@@ -39,7 +39,7 @@ class File(Base, TimestampMixin):
     status = Column(SQLEnum(FileStatus), default=FileStatus.UPLOADED)
     
     # Metadata extracted from file
-    metadata = Column(JSON, default=dict)
+    file_metadata = Column(JSON, default=dict)
     
     # Statistics
     row_count = Column(Integer)

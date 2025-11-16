@@ -1,6 +1,6 @@
 # Location: datanex/models/task.py
 
-from sqlalchemy import Column, String, JSON, Enum as SQLEnum, Text, Float
+from sqlalchemy import Column, String, Integer, JSON, Enum as SQLEnum, ForeignKey, Text, Float
 from sqlalchemy.dialects.postgresql import UUID
 import uuid
 import enum
